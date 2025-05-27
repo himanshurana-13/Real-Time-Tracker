@@ -1,0 +1,22 @@
+{
+  "name": "real-time-tracker",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["real-time", "tracker", "websocket", "express", "ejs"],
+  "author": "anonymous",
+  "license": "ISC",
+  "description": "A real-time tracking application using Express, Socket.IO, and EJS.",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
